@@ -100,3 +100,22 @@ fun tataletakRowColumn(modifier: Modifier) {
         }
     }
 }
+
+@Composable
+fun tataletakBoxColumnRow(modifier: Modifier) {
+    val gambar = painterResource(id = R.drawable.umy)
+    Column {
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(height = 100.dp)
+                .background(color = Color.Yellow),
+            contentAlignment = Alignment.Center
+        ) {
+
+        }
+
+    }
+}
+
+
